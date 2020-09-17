@@ -1,0 +1,23 @@
+<% var last; %>
+    <% site.tags.findOne({name: require_tag}).posts.forEach(function(post) { %>
+        <div class="feed">
+            <div class="card">
+                <card-header>
+                    <h3 class="title">
+                        <%- post.title %>
+                    </h3>
+                    <h3 class="date">
+                        <%- post.date.format("MMMM Do YYYY") %>
+                    </h3>
+                </card-header>
+                <p>
+                    <%- post.excerpt %>
+                </p>
+                <% if ('action' in post) { %>
+                    <a href='<%- post.action %>'>Try it out!</a>
+                    <% } else { %>
+                        <a href='<%- post.path %>'>Read More</a>
+                        <% } %>
+            </div>
+        </div>
+        <% }) %>

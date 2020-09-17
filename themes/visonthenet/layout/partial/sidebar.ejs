@@ -1,0 +1,15 @@
+<aside class="primary-sidebar">
+    <a href="<%- url_for('/') %>" class="side-menu-item <% if (is_current(url_for('/'))) { %> side-menu-item-active <% } %>">
+        Home
+    </a>
+    <% site.pages.each(function(sitepage, i){ %>
+        <a href="<%- url_for(sitepage.path) %>" class="side-menu-item <% if (is_current(sitepage.path)) { %> side-menu-item-active <% } %>">
+            <%- sitepage.title %>
+        </a>
+        <% }) %>
+            <% for (var link in site.data.external_links) { %>
+                <a href="<%= site.data.external_links[link] %>" class="side-menu-item">
+                    <%= link %>
+                </a>
+                <% } %>
+</aside>
