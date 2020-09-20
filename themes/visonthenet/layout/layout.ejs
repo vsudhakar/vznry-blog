@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
 <%- partial('partial/includes.ejs') %>
+    <%- partial('partial/mobile_helpers.ejs') %>
 
-    <body>
-        <%- partial('partial/header.ejs') %>
-            <div class='row'>
-                <%- partial('partial/sidebar.ejs') %>
-                    <aside class='content'>
-                        <%- body %>
-                    </aside>
-            </div>
-    </body>
+        <body>
+            <%- partial('partial/header.ejs') %>
+                <div class='row'>
+                    <%- partial('partial/sidebar.ejs') %>
+                        <aside class='content'>
+                            <%- body %>
+                        </aside>
+                </div>
+                <footer class="main-footer">
+                    "All of us do not have equal talent. But, all of us have an equal opportunity to develop our talents." - Dr. APJ Abdul Kalam
+                </footer>
+        </body>
 
 </html>

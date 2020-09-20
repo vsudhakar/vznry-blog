@@ -1,5 +1,5 @@
 <% var last; %>
-    <% site.tags.findOne({name: require_tag}).posts.forEach(function(post) { %>
+    <% site.tags.findOne({name: require_tag}).posts.sort('date', 'desc').forEach(function(post) { %>
         <div class="feed">
             <div class="card">
                 <card-header>

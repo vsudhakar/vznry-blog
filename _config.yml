@@ -12,7 +12,7 @@ language: en
 timezone: ''
 
 # URL
-url: http://blog.visonthe.net
+url: http://visonthe.net
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -102,4 +102,6 @@ theme: visonthenet
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/vsudhakar/vsudhakar.github.io
+  branch: master
