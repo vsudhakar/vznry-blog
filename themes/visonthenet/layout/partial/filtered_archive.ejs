@@ -16,7 +16,7 @@
                 <% if ('action' in post) { %>
                     <a href='<%- post.action %>'>Try it out!</a>
                     <% } else { %>
-                        <a href='<%- post.path %>'>Read More</a>
+                        <a href='<%- url_for(post.path) %>'>Read More</a>
                         <% } %>
             </div>
         </div>

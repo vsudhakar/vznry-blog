@@ -1,0 +1,24 @@
+galleries:
+  - name: Lake Johnson
+    photos:
+      - title: Spider on its Web
+        description: Fujifilm XT-2 + Viltrox 85 mm f/1.8
+        url: https://blob.visrut.com/uploads/image_09_21_2020-02_01_31.jpg
+      - title: Boat Framed by Trees on the Lake
+        url: https://blob.visrut.com/uploads/image_09_21_2020-01_37_22.jpg
+      - title: Boating on an Early Fall Day at Jordan Lake
+        url: https://blob.visrut.com/uploads/image_09_21_2020-01_37_14.jpg
+      - title: Up Close of an Unknown Bug
+        url: https://blob.visrut.com/uploads/image_09_21_2020-01_37_08.jpg
+      - title: Angelic Light on Spiraling Tree
+        url: https://blob.visrut.com/uploads/image_09_21_2020-01_36_46.jpg
+      - title: Fallen Tree
+        url: https://blob.visrut.com/uploads/image_09_21_2020-01_36_24.jpg
+      - title: Tree Stump and Tree
+        url: https://blob.visrut.com/uploads/image_09_21_2020-01_36_14.jpg
+      - title: Close up of Spider Web
+        url: https://blob.visrut.com/uploads/image_09_21_2020-01_35_52.jpg
+  - name: Barbados
+    photos:
+      - title: peppers
+        url: https://blob.visrut.com/uploads/image_09_20_2020-05_31_45.jpg

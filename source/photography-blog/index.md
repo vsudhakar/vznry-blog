@@ -5,5 +5,4 @@ require: photography
 layout: tagged_page
 ---
 
-# Photography
-## Formerly Lensationalist :)
+# Photography [Formerly Lensationalist]

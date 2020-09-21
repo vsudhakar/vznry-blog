@@ -1,0 +1,24 @@
+<% var data = site.data.image_gallery %>
+    <% data.galleries.forEach(function(gallery) { %>
+        <% if (gallery.name === page.gallery) { %>
+            <h1>
+                <%= gallery.name %>
+            </h1>
+            <% gallery.photos.forEach(function(photo) { %>
+                <div class="feed">
+                    <div class="card">
+                        <card-header>
+                            <h3 class="title">
+                                <%= photo.title %>
+                            </h3>
+                        </card-header>
+                        <p>
+                            <a href="<%= photo.url %>" class="imageLink">
+                <img src="<%= photo.url %>" class="galleryImage" alt="<%= photo.title %>">
+            </a>
+                        </p>
+                    </div>
+                </div>
+                <% }) %>
+                    <% } %>
+                        <% }) %>
